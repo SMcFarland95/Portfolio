@@ -1,9 +1,20 @@
 # Crop Yield Prediction with Regression Modeling
 ## Project Objective:
-#### The goal of this project was 
+#### The goal of this project was to create a regression model that predicts a farmer's corn production rate based on controllable growing factors such as pesticide and fertilizer use and uncontrollable factors such as growing season temperature. 
 ## Project Description:
 #### The project involved creating a regression model that predicts a farmer’s corn production rate based on controllable factors such as pesticide and fertilizer use and uncontrollable factors such as growing season temperature. The project demonstrates following the CRISP-DM format of EDA, data preparation, model building and evaluation. Data preparation of the corn production and weather datasets involved filtering, extreme outlier removal, feature engineering, and addressing multicollinearity. Regression models that were tested include linear regression, ridge regression, and elastic net regression. These models were evaluated using the coefficient of determination (R2), root mean squared error (RMSE), and mean absolute error (MAE) metrics. 
 ## What did I learn? (Skills gained/practiced)
+- CRISP-DM (EDA --> Data Preparation --> Model Building and Evaluation
+- Regression model selection and training (Linear regression, ridge regression, elastic net)
+- Regression mdoel evaluation (coefficient of determination (R2), root mean squared error (RSME), mean absolute error (MAE)
+- Data set preparation using Python
+  * Filtering
+  * Feature engineering
+  * Extreme outlier removal
+  * Merging of data sets
+  * Addressing multicollinearity (correlation matrix, Variance Inflation Factor (VIF)
+- Data graphical analysis using Seaborn
+
 ## Data Set Source(s):
 #### Gupta, A., & Sani, A. (2024). Agricultural Crop Yield in Indian States Dataset. [Data set]. 
 https://www.kaggle.com/datasets/akshatgupta7/crop-yield-in-indian-states-dataset
