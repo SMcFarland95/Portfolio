@@ -21,6 +21,14 @@ https://www.kaggle.com/datasets/akshatgupta7/crop-yield-in-indian-states-dataset
 #### Narayanan, M. (2020). Weather Data in India. [Data set]. 
 https://www.kaggle.com/datasets/mahendran1/weather-data-in-india-from-1901-to-2017. 
 
+## Libaries Utilized:
+- Pandas
+- Warnings
+- Seaborn
+- Matplotlib
+- Statsmodels
+- Sklearn
+
 ## Additional References:
 #### Agrawal, R. (2024, June 11). Know The Best Evaluation Metrics for Your Regression Model!. Analytics Vidhya. https://www.analyticsvidhya.com/blog/2021/05/know-the-best-evaluation-metrics-for-your-regression-model/ 
 #### Bhandari, A. (2024, July 18). What is Multicollinearity? | Causes, Effects and Detection Using 
