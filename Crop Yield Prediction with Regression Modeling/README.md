@@ -20,7 +20,7 @@ Three regression models were evaluated: linear, ridge, and elastic-net. Linear r
   * Addressing multicollinearity (correlation matrix, Variance Inflation Factor (VIF)
   * Splitting data set into training/testing
   * MinMax Scaler model preprocessing
-- Data graphical analysis using Seaborn
+- Graphical analysis using Seaborn
 
 ## Data Set Source(s):
 Gupta, A., & Sani, A. (2024). Agricultural Crop Yield in Indian States Dataset. [Data set]. 
