@@ -4,7 +4,7 @@
 ## Project Description:
 #### The project involved creating a regression model that predicts a farmer’s corn production rate based on controllable factors such as pesticide and fertilizer use and uncontrollable factors such as growing season temperature. The project demonstrates following the CRISP-DM format of EDA, data preparation, model building and evaluation. Data preparation of the corn production and weather datasets involved filtering, extreme outlier removal, feature engineering, and addressing multicollinearity. Regression models that were tested include linear regression, ridge regression, and elastic net regression. These models were evaluated using the coefficient of determination (R2), root mean squared error (RMSE), and mean absolute error (MAE) metrics. 
 ## What did I learn? (Skills gained/practiced)
-- CRISP-DM (EDA --> Data Preparation --> Model Building and Evaluation
+- CRISP-DM (EDA --> Data Preparation --> Model Building and Evaluation)
 - Regression model selection and training (Linear regression, ridge regression, elastic net)
 - Regression mdoel evaluation (coefficient of determination (R2), root mean squared error (RSME), mean absolute error (MAE)
 - Data set preparation using Python
@@ -13,6 +13,8 @@
   * Extreme outlier removal
   * Merging of data sets
   * Addressing multicollinearity (correlation matrix, Variance Inflation Factor (VIF)
+  * Splitting data set into training/testing
+  * MinMax Scaler model preprocessing
 - Data graphical analysis using Seaborn
 
 ## Data Set Source(s):
@@ -21,13 +23,13 @@ https://www.kaggle.com/datasets/akshatgupta7/crop-yield-in-indian-states-dataset
 #### Narayanan, M. (2020). Weather Data in India. [Data set]. 
 https://www.kaggle.com/datasets/mahendran1/weather-data-in-india-from-1901-to-2017. 
 
-## Libaries Utilized:
+## Libraries Utilized:
 - Pandas
 - Warnings
 - Seaborn
 - Matplotlib
 - Statsmodels
-- Sklearn
+- Scikit-learn
 
 ## Additional References:
 #### Agrawal, R. (2024, June 11). Know The Best Evaluation Metrics for Your Regression Model!. Analytics Vidhya. https://www.analyticsvidhya.com/blog/2021/05/know-the-best-evaluation-metrics-for-your-regression-model/ 
