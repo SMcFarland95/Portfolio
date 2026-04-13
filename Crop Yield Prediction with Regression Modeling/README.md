@@ -6,13 +6,11 @@ In preparation for the growing season, farmers have to make gamble purchases wit
 
 Two different data sets found on Kaggle were used in this project. The first data set contains proudction information related to a variety of crops grown in India from 1997 to 2020. Variables that can be found in the data set include crop name, season, annual rainfall, fertilizer usage, pesticide usage, and crop yield. For this project, I decided to filter the data set and focus specifically on corn production as growing preferences can vary a lot across crop species. Since the first data set did not include temperature, I chose to include a second data set from Kaggle that contains the mean monthly temperature in India from 1907 to 2017. 
 
-
-
-
-The project involved creating a regression model that predicts a farmer’s corn production rate based on controllable factors such as pesticide and fertilizer use and uncontrollable factors such as growing season temperature. The project demonstrates following the CRISP-DM format of EDA, data preparation, model building and evaluation. Data preparation of the corn production and weather datasets involved filtering, extreme outlier removal, feature engineering, and addressing multicollinearity. Regression models that were tested include linear regression, ridge regression, and elastic net regression. These models were evaluated using the coefficient of determination (R2), root mean squared error (RMSE), and mean absolute error (MAE) metrics. 
+The goal of my data preparation was to end with a simplified, cleaned up data set that was ready for building/training/evaluating a regression model. Steps that I used to complete my data preparation included filtering, converting totals variables into rates, checking and removing extreme outliers, feature engineering of new temperature variables, merging of the crop and temperature data sets, one-hot encoding a season variable, and checking/addressing multicollinearity in the data set using a correlation matrix and calculating the Variance Inflation Factor (VIF).Three regression models tested were linear, ridge, and elastic-net. Linear regression was selected as a standard model to compare model performance while ridge regression was selected as it uses a regularization method to minimize effect of multicollinearity. Elastic-net was selected as it uses a regularization technique like ridge, but also perform feature selection like lasso.  
+ 
 ## What did I learn? (Skills gained/practiced)
 - CRISP-DM (EDA --> Data Preparation --> Model Building and Evaluation)
-- Regression model selection and training (Linear regression, ridge regression, elastic net)
+- Regression model selection and training (Linear regression, ridge regression, elastic-net)
 - Regression mdoel evaluation (coefficient of determination (R2), root mean squared error (RSME), mean absolute error (MAE)
 - Data set preparation using Python
   * Filtering
