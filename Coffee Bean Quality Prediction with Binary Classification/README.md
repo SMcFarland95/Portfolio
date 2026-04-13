@@ -15,17 +15,19 @@ Three regression models were evaluated: linear, ridge, and elastic-net. Linear r
 
 ## What did I learn? (Skills gained/practiced)
 - CRISP-DM (EDA --> Data Preparation --> Model Building and Evaluation)
-- Regression model selection and training (Linear regression, ridge regression, elastic-net)
-- Regression mdoel evaluation (coefficient of determination (R2), root mean squared error (RSME), mean absolute error (MAE)
+- Binary classification model selection and training (Logistic regression, random forest classification, decision tree classification)
+- Classification mdoel evaluation (accuracy, precision, recall, F1 score, confusion matrix, ROC curve)
+- Hyperameter tuning using a grid search with 5-fold cross validation
+- Addressing class imbalance using synthetic minority oversampling technique (SMOTE)
 - Data set preparation using Python
   * Filtering
   * Feature engineering
-  * Extreme outlier removal
-  * Merging of data sets
-  * Addressing multicollinearity (correlation matrix, Variance Inflation Factor (VIF)
+  * Addressing missing values
+  * Addressing extreme outliers and skewness
+  * Creating dummy variables
   * Splitting data set into training/testing
   * MinMax Scaler model preprocessing
-- Data graphical analysis using Seaborn
+- Graphical analysis using Seaborn
 
 ## Data Set Source(s):
 LaDoux, J. (2018) Coffee Quality database from CQI. [DataSet].
@@ -36,7 +38,7 @@ https://www.kaggle.com/datasets/volpatto/coffee-quality-database-fromcqi?select
 - Warnings
 - Seaborn
 - Matplotlib
-- Statsmodels
+- Imblearn
 - Scikit-learn
 
 ## Additional References:
